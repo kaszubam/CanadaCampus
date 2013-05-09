@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2E654E173A85CD003FC074 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2E654D173A85CD003FC074 /* Default-568h@2x.png */; };
+		BD921E3B173BA24F00A80E14 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD921E3A173BA24F00A80E14 /* MainStoryboard_iPhone.storyboard */; };
+		BD921E3D173BA25F00A80E14 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD921E3C173BA25F00A80E14 /* MainStoryboard_iPad.storyboard */; };
+		BD921E41173BAAF800A80E14 /* CCFilesystemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD921E40173BAAF800A80E14 /* CCFilesystemManager.m */; };
+		BD921E44173BAB0F00A80E14 /* CCSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD921E43173BAB0E00A80E14 /* CCSystemInfo.m */; };
+		BD921E47173BADBE00A80E14 /* CCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD921E46173BADBE00A80E14 /* CCRootViewController.m */; };
+		BD99ADB7173A84E3006EE36A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADB6173A84E3006EE36A /* UIKit.framework */; };
+		BD99ADB9173A84E3006EE36A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADB8173A84E3006EE36A /* Foundation.framework */; };
+		BD99ADBB173A84E3006EE36A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADBA173A84E3006EE36A /* CoreGraphics.framework */; };
+		BD99ADBD173A84E3006EE36A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADBC173A84E3006EE36A /* QuartzCore.framework */; };
+		BD99ADBF173A84E3006EE36A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADBE173A84E3006EE36A /* MessageUI.framework */; };
+		BD99ADC1173A84E3006EE36A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADC0173A84E3006EE36A /* Security.framework */; };
+		BD99ADC3173A84E3006EE36A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADC2173A84E3006EE36A /* SystemConfiguration.framework */; };
+		BD99ADC5173A84E3006EE36A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99ADC4173A84E3006EE36A /* CoreData.framework */; };
+		BD99ADCB173A84E4006EE36A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD99ADCA173A84E4006EE36A /* Entitlements.plist */; };
+		BD99ADCD173A84E4006EE36A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD99ADCC173A84E4006EE36A /* main.m */; };
+		BD99ADD3173A84E4006EE36A /* CanadaCampusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD99ADD2173A84E4006EE36A /* CanadaCampusAppDelegate.m */; };
+		BD99ADF0173A84E4006EE36A /* iPhoneCommonLibrary_Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = BD99ADEF173A84E4006EE36A /* iPhoneCommonLibrary_Prefix.pch */; };
+		BD99AE1D173A84E5006EE36A /* admsAppLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99AE1C173A84E5006EE36A /* admsAppLibrary.a */; };
+		BD99AE1F173A84E5006EE36A /* libYAJLIPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99AE1E173A84E5006EE36A /* libYAJLIPhone.a */; };
+		BD99AE21173A84E5006EE36A /* libiPhoneCommonLibrary-2.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD99AE20173A84E5006EE36A /* libiPhoneCommonLibrary-2.2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD2E654D173A85CD003FC074 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD921E3A173BA24F00A80E14 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = Resources/Design/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BD921E3C173BA25F00A80E14 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPad.storyboard; path = Resources/Design/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BD921E3F173BAAF800A80E14 /* CCFilesystemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFilesystemManager.h; path = Classes/System/CCFilesystemManager.h; sourceTree = "<group>"; };
+		BD921E40173BAAF800A80E14 /* CCFilesystemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFilesystemManager.m; path = Classes/System/CCFilesystemManager.m; sourceTree = "<group>"; };
+		BD921E42173BAB0E00A80E14 /* CCSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSystemInfo.h; path = Classes/System/CCSystemInfo.h; sourceTree = "<group>"; };
+		BD921E43173BAB0E00A80E14 /* CCSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSystemInfo.m; path = Classes/System/CCSystemInfo.m; sourceTree = "<group>"; };
+		BD921E45173BADBD00A80E14 /* CCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCRootViewController.h; path = Classes/ViewControllers/CCRootViewController.h; sourceTree = "<group>"; };
+		BD921E46173BADBE00A80E14 /* CCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCRootViewController.m; path = Classes/ViewControllers/CCRootViewController.m; sourceTree = "<group>"; };
+		BD99ADB3173A84E3006EE36A /* CanadaCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadaCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD99ADB6173A84E3006EE36A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD99ADB8173A84E3006EE36A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD99ADBA173A84E3006EE36A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD99ADBC173A84E3006EE36A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BD99ADBE173A84E3006EE36A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BD99ADC0173A84E3006EE36A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BD99ADC2173A84E3006EE36A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BD99ADC4173A84E3006EE36A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD99ADC8173A84E4006EE36A /* CanadaCampus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CanadaCampus-Info.plist"; path = "Resources/Configuration/CanadaCampus-Info.plist"; sourceTree = "<group>"; };
+		BD99ADC9173A84E4006EE36A /* CanadaCampus_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CanadaCampus_Prefix.pch; path = Resources/Configuration/CanadaCampus_Prefix.pch; sourceTree = "<group>"; };
+		BD99ADCA173A84E4006EE36A /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = Resources/Configuration/Entitlements.plist; sourceTree = "<group>"; };
+		BD99ADCC173A84E4006EE36A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/Main/main.m; sourceTree = "<group>"; };
+		BD99ADCE173A84E4006EE36A /* how_to_use_genentech_iphone_framework.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = how_to_use_genentech_iphone_framework.txt; path = Resources/Configuration/how_to_use_genentech_iphone_framework.txt; sourceTree = "<group>"; };
+		BD99ADCF173A84E4006EE36A /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = readme.txt; path = Resources/Configuration/readme.txt; sourceTree = "<group>"; };
+		BD99ADD1173A84E4006EE36A /* CanadaCampusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CanadaCampusAppDelegate.h; path = Classes/Main/CanadaCampusAppDelegate.h; sourceTree = "<group>"; };
+		BD99ADD2173A84E4006EE36A /* CanadaCampusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CanadaCampusAppDelegate.m; path = Classes/Main/CanadaCampusAppDelegate.m; sourceTree = "<group>"; };
+		BD99ADD8173A84E4006EE36A /* AboutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutCell.h; path = Dependencies/AboutCell.h; sourceTree = "<group>"; };
+		BD99ADD9173A84E4006EE36A /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Dependencies/AboutViewController.h; sourceTree = "<group>"; };
+		BD99ADDA173A84E4006EE36A /* ADMS_Measurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADMS_Measurement.h; path = Dependencies/ADMS_Measurement.h; sourceTree = "<group>"; };
+		BD99ADDB173A84E4006EE36A /* AppStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppStatus.h; path = Dependencies/AppStatus.h; sourceTree = "<group>"; };
+		BD99ADDC173A84E4006EE36A /* AsyncRequestSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AsyncRequestSender.h; path = Dependencies/AsyncRequestSender.h; sourceTree = "<group>"; };
+		BD99ADDD173A84E4006EE36A /* ConfigurationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConfigurationUtil.h; path = Dependencies/ConfigurationUtil.h; sourceTree = "<group>"; };
+		BD99ADDE173A84E4006EE36A /* CXMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = Dependencies/CXMLDocument.h; sourceTree = "<group>"; };
+		BD99ADDF173A84E4006EE36A /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_CreationExtensions.h; path = Dependencies/CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		BD99ADE0173A84E4006EE36A /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = Dependencies/CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		BD99ADE1173A84E4006EE36A /* CXMLElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = Dependencies/CXMLElement.h; sourceTree = "<group>"; };
+		BD99ADE2173A84E4006EE36A /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = Dependencies/CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		BD99ADE3173A84E4006EE36A /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = Dependencies/CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		BD99ADE4173A84E4006EE36A /* CXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = Dependencies/CXMLNode.h; sourceTree = "<group>"; };
+		BD99ADE5173A84E4006EE36A /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLNode_CreationExtensions.h; path = Dependencies/CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		BD99ADE6173A84E4006EE36A /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = Dependencies/CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		BD99ADE7173A84E4006EE36A /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = Dependencies/CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		BD99ADE8173A84E4006EE36A /* DataUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DataUtils.h; path = Dependencies/DataUtils.h; sourceTree = "<group>"; };
+		BD99ADE9173A84E4006EE36A /* EmailUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EmailUtils.h; path = Dependencies/EmailUtils.h; sourceTree = "<group>"; };
+		BD99ADEA173A84E4006EE36A /* FileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FileUtils.h; path = Dependencies/FileUtils.h; sourceTree = "<group>"; };
+		BD99ADEB173A84E4006EE36A /* GeneApp_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeneApp_Common.h; path = Dependencies/GeneApp_Common.h; sourceTree = "<group>"; };
+		BD99ADEC173A84E4006EE36A /* GeneFrameworkVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeneFrameworkVersion.h; path = Dependencies/GeneFrameworkVersion.h; sourceTree = "<group>"; };
+		BD99ADED173A84E4006EE36A /* GeneReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeneReachability.h; path = Dependencies/GeneReachability.h; sourceTree = "<group>"; };
+		BD99ADEE173A84E4006EE36A /* GneJSONDataRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GneJSONDataRequestHandler.h; path = Dependencies/GneJSONDataRequestHandler.h; sourceTree = "<group>"; };
+		BD99ADEF173A84E4006EE36A /* iPhoneCommonLibrary_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iPhoneCommonLibrary_Prefix.pch; path = Dependencies/iPhoneCommonLibrary_Prefix.pch; sourceTree = "<group>"; };
+		BD99ADF1173A84E4006EE36A /* KeychainUserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeychainUserData.h; path = Dependencies/KeychainUserData.h; sourceTree = "<group>"; };
+		BD99ADF2173A84E4006EE36A /* KeychainUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeychainUtils.h; path = Dependencies/KeychainUtils.h; sourceTree = "<group>"; };
+		BD99ADF3173A84E4006EE36A /* KeyValuePair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyValuePair.h; path = Dependencies/KeyValuePair.h; sourceTree = "<group>"; };
+		BD99ADF4173A84E4006EE36A /* LaunchViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LaunchViewProtocol.h; path = Dependencies/LaunchViewProtocol.h; sourceTree = "<group>"; };
+		BD99ADF5173A84E4006EE36A /* LoggingUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoggingUtils.h; path = Dependencies/LoggingUtils.h; sourceTree = "<group>"; };
+		BD99ADF6173A84E4006EE36A /* LoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginManager.h; path = Dependencies/LoginManager.h; sourceTree = "<group>"; };
+		BD99ADF7173A84E4006EE36A /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = Dependencies/LogInViewController.h; sourceTree = "<group>"; };
+		BD99ADF8173A84E4006EE36A /* LoginViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewProtocol.h; path = Dependencies/LoginViewProtocol.h; sourceTree = "<group>"; };
+		BD99ADF9173A84E4006EE36A /* MessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MessageView.h; path = Dependencies/MessageView.h; sourceTree = "<group>"; };
+		BD99ADFA173A84E4006EE36A /* MobileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MobileAppDelegate.h; path = Dependencies/MobileAppDelegate.h; sourceTree = "<group>"; };
+		BD99ADFB173A84E4006EE36A /* MobileLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MobileLaunchViewController.h; path = Dependencies/MobileLaunchViewController.h; sourceTree = "<group>"; };
+		BD99ADFC173A84E4006EE36A /* NSArray+GenenUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+GenenUtil.h"; path = "Dependencies/NSArray+GenenUtil.h"; sourceTree = "<group>"; };
+		BD99ADFD173A84E4006EE36A /* NSBundle+Orientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Orientation.h"; path = "Dependencies/NSBundle+Orientation.h"; sourceTree = "<group>"; };
+		BD99ADFE173A84E4006EE36A /* NSData+GenenUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+GenenUtil.h"; path = "Dependencies/NSData+GenenUtil.h"; sourceTree = "<group>"; };
+		BD99ADFF173A84E4006EE36A /* NSDictionary+GenenUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+GenenUtil.h"; path = "Dependencies/NSDictionary+GenenUtil.h"; sourceTree = "<group>"; };
+		BD99AE00173A84E4006EE36A /* NSDictionary+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JSON.h"; path = "Dependencies/NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		BD99AE01173A84E4006EE36A /* NSError+GenenUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSError+GenenUtil.h"; path = "Dependencies/NSError+GenenUtil.h"; sourceTree = "<group>"; };
+		BD99AE02173A84E4006EE36A /* NSMutableDictionary+GenenUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+GenenUtil.h"; path = "Dependencies/NSMutableDictionary+GenenUtil.h"; sourceTree = "<group>"; };
+		BD99AE03173A84E4006EE36A /* NSNumber+GenenUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSNumber+GenenUtil.h"; path = "Dependencies/NSNumber+GenenUtil.h"; sourceTree = "<group>"; };
+		BD99AE04173A84E4006EE36A /* NSObject+YAJL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+YAJL.h"; path = "Dependencies/NSObject+YAJL.h"; sourceTree = "<group>"; };
+		BD99AE05173A84E4006EE36A /* NSString+GenenUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+GenenUtil.h"; path = "Dependencies/NSString+GenenUtil.h"; sourceTree = "<group>"; };
+		BD99AE06173A84E4006EE36A /* NSString+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+JSON.h"; path = "Dependencies/NSString+JSON.h"; sourceTree = "<group>"; };
+		BD99AE07173A84E4006EE36A /* NSTimerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSTimerFactory.h; path = Dependencies/NSTimerFactory.h; sourceTree = "<group>"; };
+		BD99AE08173A84E4006EE36A /* NSURLRequest+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+Extensions.h"; path = "Dependencies/NSURLRequest+Extensions.h"; sourceTree = "<group>"; };
+		BD99AE09173A84E4006EE36A /* PhoneUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PhoneUtils.h; path = Dependencies/PhoneUtils.h; sourceTree = "<group>"; };
+		BD99AE0A173A84E4006EE36A /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Dependencies/Reachability.h; sourceTree = "<group>"; };
+		BD99AE0B173A84E4006EE36A /* SalesForceSSOLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SalesForceSSOLogin.h; path = Dependencies/SalesForceSSOLogin.h; sourceTree = "<group>"; };
+		BD99AE0C173A84E4006EE36A /* SecurityUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SecurityUtil.h; path = Dependencies/SecurityUtil.h; sourceTree = "<group>"; };
+		BD99AE0D173A84E4006EE36A /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = Dependencies/SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		BD99AE0E173A84E4006EE36A /* TextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TextFieldCell.h; path = Dependencies/TextFieldCell.h; sourceTree = "<group>"; };
+		BD99AE0F173A84E4006EE36A /* TouchXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = Dependencies/TouchXML.h; sourceTree = "<group>"; };
+		BD99AE10173A84E4006EE36A /* UIColor-Expanded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIColor-Expanded.h"; path = "Dependencies/UIColor-Expanded.h"; sourceTree = "<group>"; };
+		BD99AE11173A84E4006EE36A /* UIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UIUtils.h; path = Dependencies/UIUtils.h; sourceTree = "<group>"; };
+		BD99AE12173A84E4006EE36A /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UncaughtExceptionHandler.h; path = Dependencies/UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		BD99AE13173A84E4006EE36A /* UncaughtExceptionHandlerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UncaughtExceptionHandlerDelegate.h; path = Dependencies/UncaughtExceptionHandlerDelegate.h; sourceTree = "<group>"; };
+		BD99AE14173A84E4006EE36A /* UsageTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UsageTracking.h; path = Dependencies/UsageTracking.h; sourceTree = "<group>"; };
+		BD99AE15173A84E4006EE36A /* yajl_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = yajl_common.h; path = Dependencies/yajl_common.h; sourceTree = "<group>"; };
+		BD99AE16173A84E4006EE36A /* yajl_gen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = yajl_gen.h; path = Dependencies/yajl_gen.h; sourceTree = "<group>"; };
+		BD99AE17173A84E4006EE36A /* yajl_parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = yajl_parse.h; path = Dependencies/yajl_parse.h; sourceTree = "<group>"; };
+		BD99AE18173A84E4006EE36A /* YAJL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YAJL.h; path = Dependencies/YAJL.h; sourceTree = "<group>"; };
+		BD99AE19173A84E4006EE36A /* YAJLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YAJLDocument.h; path = Dependencies/YAJLDocument.h; sourceTree = "<group>"; };
+		BD99AE1A173A84E4006EE36A /* YAJLGen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YAJLGen.h; path = Dependencies/YAJLGen.h; sourceTree = "<group>"; };
+		BD99AE1B173A84E4006EE36A /* YAJLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YAJLParser.h; path = Dependencies/YAJLParser.h; sourceTree = "<group>"; };
+		BD99AE1C173A84E5006EE36A /* admsAppLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = admsAppLibrary.a; path = Dependencies/admsAppLibrary.a; sourceTree = "<group>"; };
+		BD99AE1E173A84E5006EE36A /* libYAJLIPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYAJLIPhone.a; path = Dependencies/libYAJLIPhone.a; sourceTree = "<group>"; };
+		BD99AE20173A84E5006EE36A /* libiPhoneCommonLibrary-2.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhoneCommonLibrary-2.2.a"; path = "Dependencies/libiPhoneCommonLibrary-2.2.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD99ADB0173A84E3006EE36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD99ADB7173A84E3006EE36A /* UIKit.framework in Frameworks */,
+				BD99ADB9173A84E3006EE36A /* Foundation.framework in Frameworks */,
+				BD99ADBB173A84E3006EE36A /* CoreGraphics.framework in Frameworks */,
+				BD99ADBD173A84E3006EE36A /* QuartzCore.framework in Frameworks */,
+				BD99ADBF173A84E3006EE36A /* MessageUI.framework in Frameworks */,
+				BD99ADC1173A84E3006EE36A /* Security.framework in Frameworks */,
+				BD99ADC3173A84E3006EE36A /* SystemConfiguration.framework in Frameworks */,
+				BD99ADC5173A84E3006EE36A /* CoreData.framework in Frameworks */,
+				BD99AE1D173A84E5006EE36A /* admsAppLibrary.a in Frameworks */,
+				BD99AE1F173A84E5006EE36A /* libYAJLIPhone.a in Frameworks */,
+				BD99AE21173A84E5006EE36A /* libiPhoneCommonLibrary-2.2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD921E32173B99BD00A80E14 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD921E45173BADBD00A80E14 /* CCRootViewController.h */,
+				BD921E46173BADBE00A80E14 /* CCRootViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BD921E33173B99C700A80E14 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BD921E34173B99CC00A80E14 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BD99ADD2173A84E4006EE36A /* CanadaCampusAppDelegate.m */,
+				BD99ADD1173A84E4006EE36A /* CanadaCampusAppDelegate.h */,
+				BD99ADCC173A84E4006EE36A /* main.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BD921E35173B99F800A80E14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD921E38173B9A0E00A80E14 /* Graphics */,
+				BD921E37173B9A0800A80E14 /* Design */,
+				BD921E36173B99FE00A80E14 /* Configuration */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD921E36173B99FE00A80E14 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				BD99ADC9173A84E4006EE36A /* CanadaCampus_Prefix.pch */,
+				BD99ADC8173A84E4006EE36A /* CanadaCampus-Info.plist */,
+				BD99ADCA173A84E4006EE36A /* Entitlements.plist */,
+				BD99ADCE173A84E4006EE36A /* how_to_use_genentech_iphone_framework.txt */,
+				BD99ADCF173A84E4006EE36A /* readme.txt */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		BD921E37173B9A0800A80E14 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				BD921E3A173BA24F00A80E14 /* MainStoryboard_iPhone.storyboard */,
+				BD921E3C173BA25F00A80E14 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		BD921E38173B9A0E00A80E14 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				BD921E39173B9A5500A80E14 /* Default */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		BD921E39173B9A5500A80E14 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				BD2E654D173A85CD003FC074 /* Default-568h@2x.png */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		BD921E3E173BAAC500A80E14 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BD921E3F173BAAF800A80E14 /* CCFilesystemManager.h */,
+				BD921E40173BAAF800A80E14 /* CCFilesystemManager.m */,
+				BD921E42173BAB0E00A80E14 /* CCSystemInfo.h */,
+				BD921E43173BAB0E00A80E14 /* CCSystemInfo.m */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		BD99ADAA173A84E3006EE36A = {
+			isa = PBXGroup;
+			children = (
+				BD99ADC6173A84E3006EE36A /* CanadaCampus */,
+				BD99ADB5173A84E3006EE36A /* Frameworks */,
+				BD99ADB4173A84E3006EE36A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD99ADB4173A84E3006EE36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD99ADB3173A84E3006EE36A /* CanadaCampus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD99ADB5173A84E3006EE36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD99ADB6173A84E3006EE36A /* UIKit.framework */,
+				BD99ADB8173A84E3006EE36A /* Foundation.framework */,
+				BD99ADBA173A84E3006EE36A /* CoreGraphics.framework */,
+				BD99ADBC173A84E3006EE36A /* QuartzCore.framework */,
+				BD99ADBE173A84E3006EE36A /* MessageUI.framework */,
+				BD99ADC0173A84E3006EE36A /* Security.framework */,
+				BD99ADC2173A84E3006EE36A /* SystemConfiguration.framework */,
+				BD99ADC4173A84E3006EE36A /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD99ADC6173A84E3006EE36A /* CanadaCampus */ = {
+			isa = PBXGroup;
+			children = (
+				BD921E35173B99F800A80E14 /* Resources */,
+				BD99ADD0173A84E4006EE36A /* Classes */,
+				BD99ADD7173A84E4006EE36A /* Dependencies */,
+			);
+			path = CanadaCampus;
+			sourceTree = "<group>";
+		};
+		BD99ADD0173A84E4006EE36A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD921E3E173BAAC500A80E14 /* System */,
+				BD921E34173B99CC00A80E14 /* Main */,
+				BD921E33173B99C700A80E14 /* UI */,
+				BD921E32173B99BD00A80E14 /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BD99ADD7173A84E4006EE36A /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				BD99ADD8173A84E4006EE36A /* AboutCell.h */,
+				BD99ADD9173A84E4006EE36A /* AboutViewController.h */,
+				BD99ADDA173A84E4006EE36A /* ADMS_Measurement.h */,
+				BD99ADDB173A84E4006EE36A /* AppStatus.h */,
+				BD99ADDC173A84E4006EE36A /* AsyncRequestSender.h */,
+				BD99ADDD173A84E4006EE36A /* ConfigurationUtil.h */,
+				BD99ADDE173A84E4006EE36A /* CXMLDocument.h */,
+				BD99ADDF173A84E4006EE36A /* CXMLDocument_CreationExtensions.h */,
+				BD99ADE0173A84E4006EE36A /* CXMLDocument_PrivateExtensions.h */,
+				BD99ADE1173A84E4006EE36A /* CXMLElement.h */,
+				BD99ADE2173A84E4006EE36A /* CXMLElement_CreationExtensions.h */,
+				BD99ADE3173A84E4006EE36A /* CXMLElement_ElementTreeExtensions.h */,
+				BD99ADE4173A84E4006EE36A /* CXMLNode.h */,
+				BD99ADE5173A84E4006EE36A /* CXMLNode_CreationExtensions.h */,
+				BD99ADE6173A84E4006EE36A /* CXMLNode_PrivateExtensions.h */,
+				BD99ADE7173A84E4006EE36A /* CXMLNode_XPathExtensions.h */,
+				BD99ADE8173A84E4006EE36A /* DataUtils.h */,
+				BD99ADE9173A84E4006EE36A /* EmailUtils.h */,
+				BD99ADEA173A84E4006EE36A /* FileUtils.h */,
+				BD99ADEB173A84E4006EE36A /* GeneApp_Common.h */,
+				BD99ADEC173A84E4006EE36A /* GeneFrameworkVersion.h */,
+				BD99ADED173A84E4006EE36A /* GeneReachability.h */,
+				BD99ADEE173A84E4006EE36A /* GneJSONDataRequestHandler.h */,
+				BD99ADEF173A84E4006EE36A /* iPhoneCommonLibrary_Prefix.pch */,
+				BD99ADF1173A84E4006EE36A /* KeychainUserData.h */,
+				BD99ADF2173A84E4006EE36A /* KeychainUtils.h */,
+				BD99ADF3173A84E4006EE36A /* KeyValuePair.h */,
+				BD99ADF4173A84E4006EE36A /* LaunchViewProtocol.h */,
+				BD99ADF5173A84E4006EE36A /* LoggingUtils.h */,
+				BD99ADF6173A84E4006EE36A /* LoginManager.h */,
+				BD99ADF7173A84E4006EE36A /* LogInViewController.h */,
+				BD99ADF8173A84E4006EE36A /* LoginViewProtocol.h */,
+				BD99ADF9173A84E4006EE36A /* MessageView.h */,
+				BD99ADFA173A84E4006EE36A /* MobileAppDelegate.h */,
+				BD99ADFB173A84E4006EE36A /* MobileLaunchViewController.h */,
+				BD99ADFC173A84E4006EE36A /* NSArray+GenenUtil.h */,
+				BD99ADFD173A84E4006EE36A /* NSBundle+Orientation.h */,
+				BD99ADFE173A84E4006EE36A /* NSData+GenenUtil.h */,
+				BD99ADFF173A84E4006EE36A /* NSDictionary+GenenUtil.h */,
+				BD99AE00173A84E4006EE36A /* NSDictionary+JSON.h */,
+				BD99AE01173A84E4006EE36A /* NSError+GenenUtil.h */,
+				BD99AE02173A84E4006EE36A /* NSMutableDictionary+GenenUtil.h */,
+				BD99AE03173A84E4006EE36A /* NSNumber+GenenUtil.h */,
+				BD99AE04173A84E4006EE36A /* NSObject+YAJL.h */,
+				BD99AE05173A84E4006EE36A /* NSString+GenenUtil.h */,
+				BD99AE06173A84E4006EE36A /* NSString+JSON.h */,
+				BD99AE07173A84E4006EE36A /* NSTimerFactory.h */,
+				BD99AE08173A84E4006EE36A /* NSURLRequest+Extensions.h */,
+				BD99AE09173A84E4006EE36A /* PhoneUtils.h */,
+				BD99AE0A173A84E4006EE36A /* Reachability.h */,
+				BD99AE0B173A84E4006EE36A /* SalesForceSSOLogin.h */,
+				BD99AE0C173A84E4006EE36A /* SecurityUtil.h */,
+				BD99AE0D173A84E4006EE36A /* SFHFKeychainUtils.h */,
+				BD99AE0E173A84E4006EE36A /* TextFieldCell.h */,
+				BD99AE0F173A84E4006EE36A /* TouchXML.h */,
+				BD99AE10173A84E4006EE36A /* UIColor-Expanded.h */,
+				BD99AE11173A84E4006EE36A /* UIUtils.h */,
+				BD99AE12173A84E4006EE36A /* UncaughtExceptionHandler.h */,
+				BD99AE13173A84E4006EE36A /* UncaughtExceptionHandlerDelegate.h */,
+				BD99AE14173A84E4006EE36A /* UsageTracking.h */,
+				BD99AE15173A84E4006EE36A /* yajl_common.h */,
+				BD99AE16173A84E4006EE36A /* yajl_gen.h */,
+				BD99AE17173A84E4006EE36A /* yajl_parse.h */,
+				BD99AE18173A84E4006EE36A /* YAJL.h */,
+				BD99AE19173A84E4006EE36A /* YAJLDocument.h */,
+				BD99AE1A173A84E4006EE36A /* YAJLGen.h */,
+				BD99AE1B173A84E4006EE36A /* YAJLParser.h */,
+				BD99AE1C173A84E5006EE36A /* admsAppLibrary.a */,
+				BD99AE1E173A84E5006EE36A /* libYAJLIPhone.a */,
+				BD99AE20173A84E5006EE36A /* libiPhoneCommonLibrary-2.2.a */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD99ADB2173A84E3006EE36A /* CanadaCampus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD99AE24173A84E5006EE36A /* Build configuration list for PBXNativeTarget "CanadaCampus" */;
+			buildPhases = (
+				BD99ADAF173A84E3006EE36A /* Sources */,
+				BD99ADB0173A84E3006EE36A /* Frameworks */,
+				BD99ADB1173A84E3006EE36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanadaCampus;
+			productName = CanadaCampus;
+			productReference = BD99ADB3173A84E3006EE36A /* CanadaCampus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD99ADAB173A84E3006EE36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = BD99ADAE173A84E3006EE36A /* Build configuration list for PBXProject "CanadaCampus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD99ADAA173A84E3006EE36A;
+			productRefGroup = BD99ADB4173A84E3006EE36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD99ADB2173A84E3006EE36A /* CanadaCampus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD99ADB1173A84E3006EE36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD99ADCB173A84E4006EE36A /* Entitlements.plist in Resources */,
+				BD99ADF0173A84E4006EE36A /* iPhoneCommonLibrary_Prefix.pch in Resources */,
+				BD2E654E173A85CD003FC074 /* Default-568h@2x.png in Resources */,
+				BD921E3B173BA24F00A80E14 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BD921E3D173BA25F00A80E14 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD99ADAF173A84E3006EE36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD99ADCD173A84E4006EE36A /* main.m in Sources */,
+				BD99ADD3173A84E4006EE36A /* CanadaCampusAppDelegate.m in Sources */,
+				BD921E41173BAAF800A80E14 /* CCFilesystemManager.m in Sources */,
+				BD921E44173BAB0F00A80E14 /* CCSystemInfo.m in Sources */,
+				BD921E47173BADBE00A80E14 /* CCRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD99AE22173A84E5006EE36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD99AE23173A84E5006EE36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BD99AE25173A84E5006EE36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CanadaCampus/Resources/Configuration/CanadaCampus_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/CanadaCampus/Resources/Configuration/CanadaCampus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CanadaCampus/Dependencies\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
+					"-lxml2",
+					"-ObjcC",
+					"-all_load",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = (
+					"-lxml2",
+					"-ObjcC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD99AE26173A84E5006EE36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CanadaCampus/Resources/Configuration/CanadaCampus_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/CanadaCampus/Resources/Configuration/CanadaCampus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CanadaCampus/Dependencies\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
+					"-lxml2",
+					"-ObjcC",
+					"-all_load",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = (
+					"-lxml2",
+					"-ObjcC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD99ADAE173A84E3006EE36A /* Build configuration list for PBXProject "CanadaCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD99AE22173A84E5006EE36A /* Debug */,
+				BD99AE23173A84E5006EE36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD99AE24173A84E5006EE36A /* Build configuration list for PBXNativeTarget "CanadaCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD99AE25173A84E5006EE36A /* Debug */,
+				BD99AE26173A84E5006EE36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD99ADAB173A84E3006EE36A /* Project object */;
+}
